@@ -6,6 +6,84 @@
     <title>Day - 3</title>
 </head>
 <body>
-    <h1></h1>
+    <header>
+        <h1>My Cool Website</h1>
+    </header>
+
+    <div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat harum id nihil blanditiis distinctio quisquam ipsum aut reiciendis quod molestiae? <span>Follow : Programmerfect</span></p>
+
+        <div>
+            <p>Author paragraph with a special character: &COPY; Copyright 2024</p>
+        </div>
+
+    </div>
+
+    <footer>
+        <p>&lt;Footer&gt; tag for the footer content.</p>
+    </footer>
+
+    <h1>Simple Form</h1>
+
+    <form action="/sub,it" method="post">
+        <label for="username">Username</label>
+        <input type="text" name="username" required> 
+
+        <br> <br>
+
+        <label for="password">Password</label>
+        <input type="password" name="password" required>
+
+        <br> <br>
+
+        <label for="email">Email</label>
+        <input type="email" name="email" required>
+
+        <br> <br>
+
+        <label for="age">Age</label>
+        <input type="number" name="age" min="18" required>
+
+        <br> <br>
+
+        <label for="gender">Gender</label>
+        <select name="gender" required>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="Other">Other</option>
+        </select>
+
+        <br> <br>
+
+        <label for="message">Message</label>
+        <textarea name="message" cols="30" rows="10" required></textarea>
+
+        <br> <br>
+
+        <label for="file">File Upload</label>
+        <input type="file" name="file">
+
+        <br> <br>
+
+        <label for="color">Favorite Color</label>
+        <input type="color" name="color">
+
+        <br> <br>
+
+        <label for="range">Rating (1-10):</label>
+        <input type="range" name="range">
+
+        <br> <br>
+
+        <label for="dob">Date of Birth</label>
+        <input type="date" name="dob" required>
+
+        <br> <br>
+
+        <button type="submit">Submit</button>
+
+
+    </form>
+
 </body>
 </html>
