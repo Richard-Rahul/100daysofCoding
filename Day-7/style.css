@@ -1,0 +1,31 @@
+*{
+    font-family: monospace;
+}
+
+h1{
+    color: #b92b27;
+}
+
+h3{
+    color: purple;
+}
+
+#login{
+    color: white;
+    background-color: #b92b27;
+}
+
+#signup{
+    color: white;
+    background-color: #b92b27;
+}
+
+.upvote-btn{
+    color: #2e69ff;
+    background-color: whitesmoke;
+}
+
+.answer-btn{
+    color: black;
+    background-color: whitesmoke;
+}
