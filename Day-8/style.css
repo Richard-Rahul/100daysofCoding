@@ -1,0 +1,48 @@
+h1{
+    color: #ffa511;
+    font-family: monospace;
+    text-align: center;
+    font-size: 55px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    line-height: 1.5;
+    text-decoration: blue double underline;
+    /* text-transform: uppercase; */
+}
+
+.poem{
+    color: black;
+    font-family: monospace;
+    text-align: center;
+    line-height: 2;
+    font-size: 15px;
+}
+
+/* Descendant selector */
+.poem a{
+    text-decoration: none;
+}
+
+.nav-bar ul li{
+    color: teal;
+}
+
+.nav-bar ul li a{
+    color: #ffa511;
+    text-decoration: none;
+}
+
+/* Adjacent Sibling combinator */
+h2{
+    color: purple;
+}
+
+h2+p{
+    background-color: yellow;
+}
+
+.name{
+    color: teal;
+    text-decoration: underline;
+}
+

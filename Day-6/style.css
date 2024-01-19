@@ -1,6 +1,9 @@
 /* External Method */
 h1{
     color: red;
+    text-align: center;
+    text-decoration: black underline;
+    letter-spacing: 10px;
 
 }
 
