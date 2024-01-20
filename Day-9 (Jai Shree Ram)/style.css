@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #ffe7d3;
+}
+
+.ram {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+header {
+    background-color: rgb(255, 145, 0);
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+.image-container {
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px 10px 0 0;
+}
+
+.content {
+    padding: 20px;
+    text-align: center ;
+}
+
+.shree {
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(255, 145, 0);;
+    color: black;
+}
+
+.shree p a {
+    text-decoration: none;
+    
+}
