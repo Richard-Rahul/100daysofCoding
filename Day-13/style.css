@@ -2,12 +2,12 @@ body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #8cff8c;
 }
 
 .header {
-    background-color: #333;
-    color: #fff;
+    background-color: #bcbc04;
+    color: white;
     text-align: center;
     padding: 10px;
 }
@@ -15,7 +15,7 @@ body {
 .navigation {
     display: flex;
     justify-content: space-around;
-    background-color: #444;
+    background-color: #ac3f3f;
     padding: 10px;
 }
 
@@ -28,6 +28,7 @@ body {
 
 .nav-link:hover {
     background-color: #555;
+
 }
 
 .main-section {
@@ -49,7 +50,6 @@ body {
 
 .blog-post:hover {
     border: 2px solid #333;
-    background-color: teal;
 }
 
 .sidebar {
