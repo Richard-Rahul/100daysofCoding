@@ -1,0 +1,89 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-around;
+    background-color: #444;
+    padding: 10px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.nav-link:hover {
+    background-color: #555;
+}
+
+.main-section {
+    margin: 20px;
+}
+
+.blog-post {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.blog-post:before {
+    content: '📝';
+    font-size: 20px;
+    margin-right: 5px;
+}
+
+.blog-post:hover {
+    border: 2px solid #333;
+    background-color: teal;
+}
+
+.sidebar {
+    float: right;
+    width: 30%;
+    background-color: #ddd;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+
+.sidebar:hover{
+    background-color: aqua;
+}
+
+.sidebar a{
+    text-decoration: none;
+    color: black;
+}
+
+.sidebar p:first-child {
+    font-weight: bold;
+}
+
+.clear-float {
+    clear: both;
+}
+
+.footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
