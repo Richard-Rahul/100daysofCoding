@@ -59,6 +59,18 @@ body{
     border: 2px solid black;
 }
 
+.content #para1{
+    border: 2px solid black;
+}
+
+.content #para2{
+    border: 2px dashed black;
+}
+
+.content #para3{
+    border: 2px double black;
+}
+
 .content a{
     text-decoration: none;
     color: black;
