@@ -1,0 +1,78 @@
+/* 
+
+prcatice code
+
+*{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#mainTopic{
+    color: blue;
+}
+
+.content{
+    background-color: cornflowerblue;
+    color: white;
+}
+
+div button{
+    background-color: purple;
+    color: azure;
+}
+
+div button:hover{
+    background-color: yellow;
+    color: blue;
+}
+
+p:nth-of-type(odd){
+    color: yellow;
+}
+
+h1::first-letter{
+    color: red;
+}
+
+#yes:checked + label{
+    color: teal;
+    
+} */
+
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    padding: 20px;
+    background-color: #3498db;
+    text-align: center;
+    color: white;
+}
+
+.content{
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    border: 2px solid black;
+}
+
+.content a{
+    text-decoration: none;
+    color: black;
+}
+
+.content:hover{
+    background-color: teal;
+    color: white;
+}
+
+.footer{
+    padding: 20px;
+    background-color: #3498db;
+    text-align: center;
+    color: white;
+}
+
