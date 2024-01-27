@@ -120,3 +120,87 @@ body{
 
 /* Question 3 */
 
+.zomato{
+    width: 600px;
+    margin: 10px auto;
+    padding: 10px;
+    position: relative;
+}
+
+.zomato-img{
+    width: 100%;
+    height: 300px;
+    
+}
+
+.zomato-info{
+    position: absolute;
+    top: 80px;
+    left: 120px;
+    text-align: center;
+    color: white;
+}
+
+.zomato-logo{
+    width: 200px;
+}
+
+.bar{
+    width: 400px;
+    height: 15px;
+    background-color: white;
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 10px;
+    position: relative;
+}
+
+
+/* Question 4 */
+
+.profile {
+    width: 600px;
+    margin: auto;
+    position: relative;
+    border: 1px solid lightgrey;
+    border-radius: 15px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.cover {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.user {
+    height: 100px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 70px;
+    border-radius: 50%;
+    border: 4px solid white;
+}
+
+.user-details {
+    text-align: center;
+    margin-top: 60px;
+}
+
+.title,
+.subtitle {
+    margin: 0;
+}
+
+.user-details h1,
+.user-details p {
+    display: block;
+    margin-top: 10px; 
+}
+
+
+
+
+
+
