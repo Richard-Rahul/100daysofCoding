@@ -1,0 +1,122 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Question1 */
+
+.restaurant{
+    width: 400px;
+    margin: 10px auto;
+    padding: 10px;
+    border: 1px solid lightgray;
+    border-radius: 15px;
+    position: relative;
+}
+
+
+.restaurant-header{
+    position: relative;
+}
+
+.promoted{
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 10px;
+    background-color: gray;
+    color: white;
+    font-size: 14px;
+    padding: 3px 12px;
+    border-radius: 5px;
+}
+
+.off{
+    position: absolute;
+    left: 0;
+    top: 205px;
+    font-size: 15px;
+    background-color: rgb(0, 122, 243);
+    color: white;
+    padding: 3px 12px;
+
+}
+
+.restaurant-img{
+    width: 100%;
+    border-radius: 15px;
+}
+
+.time{
+    position: absolute;
+    right: 0;
+    top: 205px;
+    font-size: 15px;
+    background-color: white;
+    color: black;
+    padding: 3px 10px;
+    margin-right: 10px;
+    border-radius: 2px;
+}
+
+#para1{
+    color: grey;
+}
+
+#line{
+    border: 1px solid lightgray;
+    margin-bottom: 10px;
+}
+
+.div{
+    overflow: hidden;
+}
+
+.max-logo{
+    width: 60px;
+    float: left;
+    margin-right: 10px;
+    padding: 10px;
+}
+
+.para{
+    margin-left: 60px;
+    color: grey;
+}
+
+/* Question 2 */
+
+.sea{
+    width: 600px;
+    margin: 10px auto;
+    padding: 10px;
+    position: relative;
+}
+
+.sea-img{
+    width: 100%;
+    border-radius: 15px;
+}
+
+.content{
+    position: absolute;
+    top: 120px;
+    left: 60;
+    text-align: center;
+    color: white;
+}
+
+.sea-btn{
+    border: none;
+    border-radius: 60px;
+    padding: 16px 30px;
+    font-size: 16px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+/* Question 3 */
+
