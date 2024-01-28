@@ -171,21 +171,28 @@ body{
 .cover {
     width: 100%;
     border-radius: 15px;
+    
 }
 
 .user {
-    height: 100px;
+   
+    
+   height: 100px;
     position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
+    left: 40%;
+    
     bottom: 70px;
     border-radius: 50%;
     border: 4px solid white;
 }
 
 .user-details {
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    /* text-align: center; */
     margin-top: 60px;
+    
 }
 
 .title,
