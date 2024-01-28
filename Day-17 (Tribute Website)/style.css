@@ -67,6 +67,11 @@ img {
   text-align: justify;
 }
 
+.about_section p b a{
+  color: #ffbb00;
+  text-decoration: none;
+}
+
 .biography_section {
   margin: 50px 0;
 }
