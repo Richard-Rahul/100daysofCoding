@@ -29,6 +29,7 @@
   font-weight: bold;
   color: #ffbb00;
   text-transform: uppercase;
+  text-decoration: ;
 }
 
 .top_section h4 {
@@ -39,7 +40,7 @@
 .image_container {
   border-radius: 50%;
   overflow: hidden;
-  border: 1px solid black;
+  border: 5px solid white;
 }
 
 .image_container,
@@ -93,6 +94,16 @@ footer p{
 }
 
 footer a{
+  text-decoration: none;
+  color: #ffbb00;
+}
+
+.author p{
+  text-align: center;
+  padding: 50px;
+}
+
+.author a{
   text-decoration: none;
   color: #ffbb00;
 }
