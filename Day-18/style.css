@@ -5,24 +5,21 @@
 }
   
 body {
-    background-color: #ccc;
+    background-color: #F2AA4C;
 }
 .container {
     max-width: 900px;
     margin: 0 auto;
-}
-
-.container h1:hover{
-    color: teal;
+    color: #F2AA4C;
 }
   
 .apply_box {
     max-width: 600px;
     padding: 20px;
-    background-color: white;
+    background-color: #101820;
     margin: 0 auto;
     margin-top: 50px;
-    box-shadow: 4px 3px 5px rgb(48, 41, 41);
+    box-shadow: 4px 3px 5px rgb(65, 65, 65);
     border-radius: 10px;
 }
   
@@ -31,6 +28,7 @@ body {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 20px;
+    color: #F2AA4C;
 }
 
 .form_control {
@@ -53,11 +51,7 @@ textarea {
 }
   
 input:focus {
-    outline-color: black;
-}
-
-input:hover{
-    color: green;
+    outline-color: #F2AA4C;
 }
   
 .button_container {
@@ -67,19 +61,19 @@ input:hover{
 }
 
 button {
-    background-color: black;
-    border: transparent solid 2px;
+    background-color: #F2AA4C;
+    border: transparent solid 2px; 
     padding: 5px 10px;
-    color: white;
+    color: #101820;
     border-radius: 8px;
     transition: 0.3s ease-in;
     font-size: 20px;
 }
 
 button:hover {
-    background-color: #ccc;
-    border: 2px solid red;
-    color: black;
+    background-color: #101820;
+    border: 2px solid #F2AA4C;
+    color: #F2AA4C;
     transition: 0.3s ease-out;
     cursor: pointer;
 }
