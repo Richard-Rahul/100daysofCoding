@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.heading {
+    width: 100%;
+    background-color: #FCF951;
+    color: #422057;
+    height: 80px;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.navbar {
+    width: 100%;
+    background-color: #422057;
+    color: #FCF951;
+    text-align: center;
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 10px;
+    
+}
+
+.navbar ul li {
+    display: inline;
+    margin-right: 50px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #FCF951;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.title {
+    width: 100%;
+    height: 300px;
+    background-color: #FCF951;
+    color: #422057;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.subtitle {
+    padding: 30px;
+    color: #422057;
+}
+
+.subtitle a {
+    font-weight: 500;
+    text-decoration: underline;
+}
+
+.content-img {
+    width: 33%;
+    display: inline-flex;
+}
+
+.img {
+    width: 100%;
+}
+
+.info {
+    width: 33%;
+    float: left;
+    padding: 50px;
+    border: none;
+}
+
+.head {
+    font-size: 40px;
+}
+
+.content-info {
+    padding-top: 50px;
+    text-align: center;
+}
+
+.sub-heading {
+    font-style: italic;
+    font-weight: 400;
+    padding: 10px;
+    font-size: 15px;
+}
+
+.sub-title {
+    padding: 20px;
+}
+
+.sub-title+a {
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.content-img2 {
+    width: 33%;
+    float: left;
+}
+
+.footer {
+    width: 100%;
+    background-color: #422057;
+    color: #FCF951;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+}
