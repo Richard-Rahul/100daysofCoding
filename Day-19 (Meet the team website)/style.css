@@ -12,6 +12,7 @@
     height: 80px;
     padding: 20px;
     cursor: pointer;
+    text-align: center;
 }
 
 .navbar {
@@ -29,7 +30,7 @@
 
 .navbar ul li {
     display: inline;
-    margin-right: 50px;
+    margin-right: 150px;
 }
 
 .navbar a {
