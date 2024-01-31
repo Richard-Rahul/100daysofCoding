@@ -8,9 +8,12 @@
 .card{
     width: 300px;
     border: 5px solid #0A174E;
-    margin: 50px auto;
+    
     background-color: #F5D042;
     border-radius: 10px;
+    display: inline-block;
+    margin-right: 20px;
+    margin: 50px;
 }
 
 .card:hover {
