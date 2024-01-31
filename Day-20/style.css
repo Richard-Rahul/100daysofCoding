@@ -39,3 +39,26 @@ p{
     color: #0A174E;
     font-size: 15px;
 }
+
+.btn-info{
+    margin-left: 700px;
+    
+}
+
+.btn{
+    background-color: #04AA6D; 
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 30px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: #F5D042;
+    color: #0A174E;
+    font-size: 50px;
+    font-style: oblique;
+}
