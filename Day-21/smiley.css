@@ -1,0 +1,55 @@
+.smiley{
+    width: 400px;
+    height: 400px;
+    background-color: orange;
+    border-radius: 50%;
+}
+
+.mouth{
+    width: 200px;
+    height: 100px;
+    background-color: brown;
+    border-radius: 0 0 50px 50px;
+    position: absolute;
+    top: 250px;
+    left: 100px;
+}
+
+.tongue{
+    width: 50px;
+    height: 80px;
+    background-color: white;
+    border-radius: 0 0 50px 50px;
+    position: absolute;
+    left: 75px;
+}
+
+.left-eye, .right-eye{
+    width: 60px;
+    height: 60px;
+    background-color: black;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.left-eye{
+    position: absolute;
+    top: 80px;
+    left: 95px;
+}
+
+.eye-ball{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.right-eye{
+    position: absolute;
+    top: 80px;
+    left: 240px;
+}
