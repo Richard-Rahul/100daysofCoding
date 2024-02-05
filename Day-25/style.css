@@ -18,6 +18,11 @@
     color: #fff;
     border-bottom: 4px solid #fdb347;
   }
+
+  .header a{
+    text-decoration: none;
+    color: #fff;
+  }
   
   .gallery {
     display: flex;
