@@ -14,7 +14,19 @@
   padding: 10px 20px;
 }
 
+.logo{
+    font-size: 20px;
+}
+
+.logo:hover{
+    font-size: 30px;
+    color: #815854;
+    background-color: #F9EBDE;
+    cursor: pointer;
+}
+
 .navbar a {
+  font-size: 20px;
   color: #F9EBDE;
   text-decoration: none;
   padding: 10px 15px;
