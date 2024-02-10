@@ -1,0 +1,21 @@
+body{
+    background-color: #433838;
+    margin: 0;
+}
+
+.img{
+    background-image: url("rohit.png");
+    justify-content: center;
+    align-items: center;
+    width: 700px;
+    height: 900px;
+    background-repeat: no-repeat;
+    background-position: right;
+    margin: 0 auto;
+    overflow: hidden;
+    background-size: cover;
+    -webkit-background-clip: text;
+    /* background-attachment: fixed; */
+    -webkit-text-fill-color: rgba(255, 255, 255, 0);
+
+}
