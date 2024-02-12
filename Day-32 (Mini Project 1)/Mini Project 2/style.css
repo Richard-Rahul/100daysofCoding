@@ -1,0 +1,71 @@
+body {
+    background-image: url("https://images.unsplash.com/photo-1687201363580-1cd1bb33c2b5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1332&q=80");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    overflow-x: hidden;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    position:absolute;
+    right:0;
+    padding-right:20px;
+    z-index:1;
+  }
+  
+  li {
+    margin-right: 20px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    font-size: 1.2rem;
+    padding: 10px;
+  }
+  
+  #home:hover, 
+  #about:hover, 
+  #contactUs:hover {
+    color: white;
+  }
+  
+  @keyframes birdsFlying {
+    0% {
+      left: 100vw;
+    }
+    100% {
+      left: -200vw;
+    }
+  }
+  
+  #birdsContainer {
+    position: absolute;
+    top: 10vw;
+    animation-name: birdsFlying;
+    animation-delay: 0s;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    z-index: -1;
+  }
+  
+#welcome {
+    color: white;
+    text-shadow: 2px 2px 5px black;
+    position: fixed;
+    text-align: center;
+    height: 100vh;
+    line-height: 100vh;
+    font-size: 40px;
+    font-family: "Courier New", Courier, monospace;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 0;
+  }
