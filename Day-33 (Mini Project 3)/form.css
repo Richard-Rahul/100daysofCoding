@@ -13,7 +13,7 @@ body {
 .outer-box {
     width: 100vw;
     height: 100vh;
-    background: linear-gradient(to top left, #ffc83e, #fdd97d);
+    background: linear-gradient(to top left, #000000, #ff9e9e);
 }
 
 .inner-box {
