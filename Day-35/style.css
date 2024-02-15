@@ -131,35 +131,4 @@
 #check:checked ~ .sidebar_menu .btn_two i{
     opacity: 1;
 }
-
-/* Existing styles remain unchanged */
-
-.gallery {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    padding: 20px;
-  }
-  
-  .image {
-    margin: 10px;
-  }
-  
-  .image img {
-    width: 200px;
-    height: 200px;
-    object-fit: cover;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: transform 0.3s ease;
-  }
-  
-  .image img:hover {
-    transform: scale(1.1);
-  }
-  
-  /* Additional CSS for additional images */
-  .image:nth-child(n + 6) {
-    display: none; /* Hide additional images by default */
-  }
   
