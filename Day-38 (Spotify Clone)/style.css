@@ -143,3 +143,41 @@ a{
     margin: 0.75rem 0 1.75rem 0;
     padding: 1rem 1.25rem;
 }
+
+.sticky-nav{
+    position: sticky;
+    top: 0;
+    background-color: #121212;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0 1rem 0;
+}
+
+.sticky-nav-icons{
+   margin-left: 0.75rem;
+}
+
+.sticky-nav-options{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sticky-nav-options button{
+    margin-left: 1rem;
+}
+
+.nav-item{
+    margin-right: 1rem;
+}
+
+.dark-btn{
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+}
+
+.sticky-nav-options i{
+    margin-right: 5px;
+}
