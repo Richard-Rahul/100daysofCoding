@@ -29,6 +29,7 @@ body{
     flex: 1;
     border-radius: 1rem;
     overflow: auto;
+    padding: 0  1.5rem 0 1.5rem;
 }
 
 .music-player{
@@ -160,7 +161,7 @@ a{
 
 .sticky-nav-options{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -182,3 +183,60 @@ a{
     margin-right: 5px;
 }
 
+@media (max-width: 1000px) {
+    .hide{
+        display: none;
+    }
+}
+
+h2{
+    margin-top: 1rem;
+}
+
+.card{
+    background-color: #232323;
+    width: 190px;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    margin-top: 1rem;
+    margin-left: 1.5rem;
+}
+
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card-img{
+    width: 100%;
+    border-radius: 0.5rem;
+}
+
+.artists{
+    border-radius: 50%;
+}
+
+.card-title{
+    font-weight: 600;
+    padding-top: 0.5rem;
+}
+
+.card-info{
+    font-size: 0.75rem;
+    opacity: 0.5;
+    padding-top: 0.5rem;
+}
+
+.footer{
+    height: 300px;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+
+.line{
+    width: 90%;
+    height: 30%;
+    border-top: 1px solid white;
+    opacity: 0.4;
+}
