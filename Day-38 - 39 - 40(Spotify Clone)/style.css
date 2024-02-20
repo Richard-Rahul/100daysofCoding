@@ -427,6 +427,11 @@ h2{
     cursor: pointer;
 }
 
+.volume p{
+    font-size: 12px;
+    font-weight: 500;
+}
+
 .control input.progressbar {
     margin-top: 0.5rem;
     width: 65%;
