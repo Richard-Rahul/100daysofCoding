@@ -432,9 +432,17 @@ h2{
     font-weight: 500;
 }
 
+.volume i{
+    margin-right: 0.5rem;
+}
+
+.volume-control{
+    font-size: 12px;
+}
+
 .control input.progressbar {
     margin-top: 0.5rem;
-    width: 65%;
+    width: 70%;
     margin-left: 10px;
     margin-right: 10px;
 }
