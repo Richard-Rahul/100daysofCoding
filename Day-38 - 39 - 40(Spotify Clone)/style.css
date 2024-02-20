@@ -318,4 +318,118 @@ h2{
     position: fixed;
     bottom: 0;
     width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.album{
+    width: 25%;
+    display: flex;
+    align-items: center;
+}
+
+.album-img{
+    width: 50px;
+    height: 50px;
+    margin-left: 0.5rem;
+}
+
+.album-image{
+    width: 100%;
+    border-radius: 5px;
+    margin-top: 0.5rem;
+}
+
+.album-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 1rem;
+    margin-top: 0.5rem;
+    line-height: 1.2;
+}
+
+.song-name{
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.singer-name{
+    font-size: 12px;
+    font-weight: 300;
+    padding-top: 0.25rem;
+}
+
+.album-icon{
+    font-size: 14px;
+    text-align: center;
+    margin-left: 2rem;
+}
+
+
+.player{
+    width: 50%;
+}
+
+
+.player-controls{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.player-control-icon{
+    height: 1rem;
+    margin-right: 1.75rem;
+    margin-top: 0.5rem;
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.player-control-icon:hover{
+    opacity: 1;
+}
+
+#third-icon{
+    opacity: 1;
+    height: 2rem;
+}
+
+.playback-bar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.progress-bar{
+    margin-top: 0.5rem;
+    width: 60%;
+}
+
+
+.current-time{
+    margin-right: 0.5rem;
+    font-size: 14px;
+}
+
+.total-time{
+    margin-left: 0.5rem;
+    font-size: 14px;
+}
+
+.control{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    cursor: pointer;
+}
+
+.control input.progressbar {
+    margin-top: 0.5rem;
+    width: 65%;
+    margin-left: 10px;
+    margin-right: 10px;
 }
