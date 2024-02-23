@@ -8,63 +8,155 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
   </head>
   <body>
-    <h1 class="text-center">Product Price</h1>
-    <p class="text-center">Please checkout our most effective payment models</p>
-    <div class="row text-center justify-content-evenly">
-        <div class="card col-sm-5 col-md-3 mb-3 me-3">
-            <div class="card-header">
-                <h4>Free</h4>
-            </div>
-
-            <div class="card-body">
-                <h1 class="card-title">$0 / mo</h1>
-                <ul class="list-unstyled">
-                    <li>10 users included</li>
-                    <li>2 GB of storage</li>
-                    <li>Email support</li>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">Programmerfect</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Shop</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
                 </ul>
-                <button href="#" class="btn btn-outline-primary">Sign up for free</button>
             </div>
         </div>
-    </div>
+    </nav>
 
-    <div class="row text-center justify-content-evenly ">
-        <div class="card col-sm-5 col-md-3 mb-3 me-3">
-            <div class="card-header">
-                <h4>Pro</h4>
-            </div>
+    <!-- Hero Section -->
+    <section class="hero bg-primary text-light text-center py-5">
+        <div class="container">
+            <h1>Welcome to our Store</h1>
+            <p>Shop the latest trends in fashion, electronics, and more!</p>
+            <a href="#" class="btn btn-light">Shop Now</a>
+        </div>
+    </section>
 
-            <div class="card-body">
-                <h1 class="card-title">$15 / mo</h1>
-                <ul class="list-unstyled">
-                    <li>20 users included</li>
-                    <li>10 GB of storage</li>
-                    <li>Priority email support</li>
-                </ul>
-                <button href="#" class="btn btn-outline-primary">Sign up for free</button>
+    <!-- Product Grid -->
+    <section class="products py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Featured Products</h2>
+            <div class="row">
+                <!-- Product 1 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="https://source.unsplash.com/336x336/?iphone" class="card-img-top" alt="iphone 19">
+                        <div class="card-body">
+                            <h5 class="card-title">Iphone 19</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            <a href="#" class="btn btn-primary">View Details</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product 2 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="https://source.unsplash.com/336x336/?laptop" class="card-img-top" alt="Product 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Laptop</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            <a href="#" class="btn btn-primary">View Details</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product 3 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="https://source.unsplash.com/336x336/?shirt" class="card-img-top" alt="Product 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Dress</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            <a href="#" class="btn btn-primary">View Details</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product 4 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="https://source.unsplash.com/336x336/?bike" class="card-img-top" alt="Product 4">
+                        <div class="card-body">
+                            <h5 class="card-title">Bike</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            <a href="#" class="btn btn-primary">View Details</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product 5 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="https://source.unsplash.com/336x336/?car" class="card-img-top" alt="Product 5">
+                        <div class="card-body">
+                            <h5 class="card-title">Car</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            <a href="#" class="btn btn-primary">View Details</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product 6 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="https://source.unsplash.com/336x336/?house" class="card-img-top" alt="Product 6">
+                        <div class="card-body">
+                            <h5 class="card-title">House</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            <a href="#" class="btn btn-primary">View Details</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product 7 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="https://source.unsplash.com/336x336/?charger" class="card-img-top" alt="Product 7">
+                        <div class="card-body">
+                            <h5 class="card-title">Charger</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            <a href="#" class="btn btn-primary">View Details</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product 8 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="https://source.unsplash.com/336x336/?burger" class="card-img-top" alt="Product 8">
+                        <div class="card-body">
+                            <h5 class="card-title">Burger</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            <a href="#" class="btn btn-primary">View Details</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product 9 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="https://source.unsplash.com/336x336/?girl" class="card-img-top" alt="Product 9">
+                        <div class="card-body">
+                            <h5 class="card-title">Gril Dress</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            <a href="#" class="btn btn-primary">View Details</a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
-    </div>
+    </section>
 
-    <div class="row text-center justify-content-evenly ">
-    <div class="card col-sm-5 col-md-3 mb-3 me-3">
-            <div class="card-header">
-                <h4>Enterprise</h4>
-            </div>
-
-            <div class="card-body">
-                <h1 class="card-title">$29 / mo</h1>
-                <ul class="list-unstyled">
-                    <li>30 users included</li>
-                    <li>15 GB of storage</li>
-                    <li>Phone & email support</li>
-                </ul>
-                <button href="#" class="btn btn-outline-primary">Sign up for free</button>
-            </div>
+    <!-- Footer -->
+    <footer class="bg-dark text-light text-center py-3">
+        <div class="container">
+            <p>&copy; 2024 Programmerfect. All rights reserved.</p>
         </div>
-    </div>
-    </div>
+    </footer>
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
   </body>
