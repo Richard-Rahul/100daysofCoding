@@ -1,0 +1,65 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f8f9fa;
+}
+
+.primary-color {
+    color: #007bff;
+}
+
+.secondary-color {
+    color: #6c757d;
+}
+
+.footer-section {
+    background-color: #343a40;
+    color: #ffffff;
+}
+
+.social-links a {
+    color: #ffffff;
+    margin-right: 10px;
+}
+
+
+/* Animations */
+.team-member:hover img {
+    transform: scale(1.1);
+}
+
+.review-card {
+    transition: all 0.3s ease;
+}
+
+.review-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Product Section */
+.product-img {
+    width: 100%;
+    height: auto;
+}
+
+.product-title {
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+.product-description {
+  margin-top: 10px;
+}
+  
+/* Key Features Section */
+.feature-box {
+    border: 1px solid #dee2e6;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
