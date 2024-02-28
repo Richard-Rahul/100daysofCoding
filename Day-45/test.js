@@ -7,10 +7,3 @@ let accountState;
 
 console.table([accountId, accountEmail, accountPassword, accountCity, accountState])
 
-// Const - 
-
-// Let - 
-
-// Var - 
-
-// Comment in JS - 
