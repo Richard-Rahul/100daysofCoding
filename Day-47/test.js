@@ -6,12 +6,13 @@ console.log(fullName)
 typeof fullName;
 
 a = 40
-b = 20
+b = 60
 
 sum = a+b
 console.log(sum)
 
-c = 45
-d = 5
+c = 40
+d = 60
 sum = c+d
+
 console.log(sum)
