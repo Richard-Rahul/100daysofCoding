@@ -8,6 +8,7 @@ x = null
 
 isFollow = true;
 
+console.log(x)
 console.log(isFollow)
 
 console.table([fullname, age, course, address, mobile_no])
