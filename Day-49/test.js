@@ -9,7 +9,7 @@ let product = num1 * num2;
 let quotient = num1 / num2;
 let remainder = num1 % num2;
 
-// Print results
+
 console.log("Sum:", sum); 
 console.log("Difference:", difference); 
 console.log("Product:", product); 
