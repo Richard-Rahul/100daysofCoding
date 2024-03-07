@@ -29,3 +29,64 @@ if (score >= 90 && score <= 100) {
 } else {
     console.log("Fail")
 }
+
+// Q3 - Write a program that calculates the ticket price based on age.
+
+// let age = prompt("Enter your age");
+let age = 60;
+let ticketPrice;
+
+if (age >= 60) {
+    ticketPrice = 15; // Senior Citizen discount
+} else if (age < 60 && age >= 50) {
+    ticketPrice = 50;
+} else if (age < 50 && age >= 35) {
+    ticketPrice = 35;
+} else if (age < 35 && age >= 15) {
+    ticketPrice = 20;
+} else {
+    ticketPrice = Free;
+}
+
+console.log("Ticket Price: $" + ticketPrice);
+
+// Q4 - Write a program that determines if a year is a leap year.
+
+// let year = prompt("Enter Year");
+let year = 2024;
+
+if (year % 4 === 0 && (year % 100 !== 0 || year % 400 === 0)) {
+  console.log(year + " is a leap year.");
+} else {
+  console.log(year + " is not a leap year.");
+}
+
+// Q5 - Write a program that calculates a discount based on the purchase amount.
+
+// let purchaseAmmount = prompt ("Enter your purchase ammount");
+
+let purchaseAmmount = 80;
+let discount;
+
+if (purchaseAmmount >= 100) {
+    discount = 20;
+} else if (purchaseAmmount < 100 && purchaseAmmount >= 60) {
+    discount = 10;
+} else {
+    discount = 0;
+}
+
+console.log("Discount: " + discount + "%");
+
+// Q6 - Write a simple number guessing game.
+
+let secretNumber = 7;
+let guess = 7;
+
+if (guess === secretNumber) {
+    console.log("Congratulations! You guessed the correct number.");
+} else if (guess < secretNumber) {
+    console.log("Try again")
+} else {
+    console.log("try another number")
+}
