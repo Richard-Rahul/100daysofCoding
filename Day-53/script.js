@@ -90,3 +90,22 @@ if (guess === secretNumber) {
 } else {
     console.log("try another number")
 }
+
+// Q7 - Write a program that calculates the Body Mass Index (BMI) and categorizes it.
+
+let weight = 70; // in kilograms
+let height = 1.75; // in meters
+let bmi = weight / (height * height);
+let category;
+
+if (bmi < 18.5) {
+  category = "Underweight";
+} else if (bmi < 24.9) {
+  category = "Normal weight";
+} else if (bmi < 29.9) {
+  category = "Overweight";
+} else {
+  category = "Obese";
+}
+console.log("BMI: " + bmi.toFixed(2)); // .toFixed(2) limits the number of decimals to 2
+console.log("Category: " + category);
