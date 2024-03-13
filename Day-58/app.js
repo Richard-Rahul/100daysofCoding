@@ -39,3 +39,24 @@ let b = 123;
 let c = a + b;
 
 console.log(c);
+
+
+const firstname = "John";
+const lastname = "Doe";
+const fullname = firstname + " " + lastname;
+console.log(fullname);
+
+// Get the length of a string
+const message = "Hello, world!";
+const messageLength = message.length;
+console.log(messageLength);
+
+// Get the character at a specific index in a string
+const letter = message.charAt(0);
+console.log(letter);
+
+// Find the first occurrence of a substring in a string
+const index = message.indexOf("world");
+
+// Replace all occurrences of a substring in a string with another substring
+const newMessage = message.replace("world", "universe");
