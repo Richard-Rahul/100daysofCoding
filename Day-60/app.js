@@ -22,23 +22,23 @@ console.log(x===y); // compares both value and type
 // Q1 - Write a program that determines whether a given number is positive or not.
 
 // For Positive Number
-let num1 = 25;
+// let num1 = 25;
 
-if (num1 >= 0) {
-    console.log("Positive Number");
-} else {
-    console.log("Negative Number");
-}
+// if (num1 >= 0) {
+//     console.log("Positive Number");
+// } else {
+//     console.log("Negative Number");
+// }
 
 // For Negative Number
 
-let num2 = -10;
+// let num2 = -10;
 
-if (num2 >= 0) {
-    console.log("Positive Number");
-} else {
-    console.log("Negative Number");
-}
+// if (num2 >= 0) {
+//     console.log("Positive Number");
+// } else {
+//     console.log("Negative Number");
+// }
 
 
 // Q2 - Write a program that checks if a number is even or odd.
@@ -64,14 +64,14 @@ if (number1 % 2 === 0) {
 
 // Q3 - Write a program to determine the greater of two numbers.
 
-let a = 50;
-let b = 20;
+// let a = 50;
+// let b = 20;
 
-if (a > b) {
-    console.log("A is greater then B");
-} else {
-    console.log("A is less then B");
-}
+// if (a > b) {
+//     console.log("A is greater then B");
+// } else {
+//     console.log("A is less then B");
+// }
 
 // Q4 - Votar Card
 
