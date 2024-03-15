@@ -56,12 +56,12 @@ let first_Name = "Rahul";
 console.log(first_Name[0]);
 console.log(first_Name[4]);
 
-let a = "apnacollege";
-let b = 123;
+let x = "apnacollege";
+let y = 123;
 
-let c = a + b;
+let z = x + y;
 
-console.log(c);
+console.log(z);
 
 
 const firstname = "John";
