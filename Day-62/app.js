@@ -49,6 +49,7 @@ if (a % 2 === 0) {
 
 // find the largest of two number
 
+/*
 let num1 = 15;
 let num2 = 20;
 
@@ -58,4 +59,43 @@ if (num1 > num2) {
     console.log("num2 is greater then num1");
 } else {
     console.log("num1 is equal to num2");
+}
+
+*/
+
+
+/* finds the largest of three number by using “>” and “&&” operator in JavaScript.
+
+    Print num1 is the largest if num1>num2 and num1>num3.
+    Print num2 is the largest if num2<num3.
+    Else print num3. 
+*/
+
+let num1 = 150;
+let num2 = 30;
+let num3 = 45;
+
+if (num1 > num2 && num1 > num3) {
+    console.log("Num1 is the largest number");
+} else if (num2 > num3) {
+    console.log("num2 is the largest number");
+} else {
+    console.log("num3 is the largest number");
+}
+
+
+// Write a program that assigns a letter grade based on a numerical grade.
+
+let marks = 99;
+
+if (marks >= 90 & marks < 100) {
+    console.log("A+");
+} else if (marks < 90 & marks >=70) {
+    console.log("A");
+} else if (marks < 70 & marks >=50) {
+    console.log("B");
+} else if (marks < 50 & marks >= 33) {
+    console.log("C");
+} else {
+    console.log("F")
 }
