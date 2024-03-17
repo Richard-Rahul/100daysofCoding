@@ -88,7 +88,7 @@ if (num1 > num2 && num1 > num3) {
 
 let marks = 99;
 
-if (marks >= 90 & marks < 100) {
+if (marks >= 90 && marks < 100) {
     console.log("A+");
 } else if (marks < 90 & marks >=70) {
     console.log("A");
@@ -99,3 +99,15 @@ if (marks >= 90 & marks < 100) {
 } else {
     console.log("F")
 }
+
+
+let x = false;
+let y = true;
+let z = false;
+
+console.log(x && y);
+console.log(x || y);
+console.log(!z);
+
+// Q - A "good string" is a string that starts with the letter 'a' & has a length > 3. write a program to find if a sring is good or not.?
+
