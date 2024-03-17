@@ -29,3 +29,33 @@ if (i === 10) {
 } else {
     console.log("i is greater then 10")
 }
+
+let num = -15;
+
+if (num > 0) {
+    console.log("Positive Number");
+} else {
+    console.log("Negative Number");
+}
+
+
+let a = 15;
+
+if (a % 2 === 0) {
+    console.log("Even Number");
+} else {
+    console.log("Odd Number");
+}
+
+// find the largest of two number
+
+let num1 = 15;
+let num2 = 20;
+
+if (num1 > num2) {
+    console.log("num1 is greater then num2");
+} else if (num2 > num1){
+    console.log("num2 is greater then num1");
+} else {
+    console.log("num1 is equal to num2");
+}
