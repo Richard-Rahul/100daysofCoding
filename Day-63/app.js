@@ -16,7 +16,7 @@ if ((num%3 === 0) && (num+1 == 15) || (num-1 == 11)) {
 }
 
 
-if (" ") {
+if (true) {
     console.log("True");
 } else {
     console.log("False");
@@ -35,4 +35,52 @@ if((side1 == side2) && (side1 == side3)){
 }
   else{
     console.log(`Scalene triangle.`)
+}
+
+
+let color = "green";
+
+switch (color) {
+    case "red":
+        console.log("STOP");
+        break;
+    case "yellow":
+        console.log("Slow-Down");
+        break;
+    case "green":
+        console.log("GO");
+        break;
+    default:
+        console.log("Traffic light broken");
+}
+
+
+// Q - use switch statement to print the day of the week using a number variable "Day" with values 1 to 7.
+
+let day = 6;
+
+switch(day) {
+    case 1:
+        console.log("Monday");
+        break;
+    case 2:
+        console.log("Tuesday");
+        break;
+    case 3:
+        console.log("Wednesday");
+        break;
+    case 4:
+        console.log("Thursday");
+        break;
+    case 5:
+        console.log("Friday");
+        break;
+    case 6:
+        console.log("Saturday");
+        break;
+    case 7:
+        console.log("Sunday");
+        break;
+    default:
+        console.log("Wrong Day")
 }
