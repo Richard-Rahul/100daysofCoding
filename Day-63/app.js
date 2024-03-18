@@ -14,3 +14,25 @@ if ((num%3 === 0) && (num+1 == 15) || (num-1 == 11)) {
 } else {
     console.log("Unsafe");
 }
+
+
+if (" ") {
+    console.log("True");
+} else {
+    console.log("False");
+}
+
+
+let side1 = 120;
+let side2 = 0;
+let side3 = 0;
+
+if((side1 == side2) && (side1 == side3)){
+    console.log(`Equilateral triangle.`)
+}
+  else if ((side1 == side2) || (side2 == side3) || (side1 == side3)){
+    console.log(`Isosceles triangle.`)
+}
+  else{
+    console.log(`Scalene triangle.`)
+}
