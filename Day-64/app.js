@@ -43,3 +43,41 @@ switch (quarter) {
     default:
         console.log("Wrong month")
 }
+
+
+// Q4
+
+let str = "apples";
+
+if ((str[0] == 'a' || str[0] == 'A') && (str.length > 5)) {
+    console.log("Golden string");
+} else {
+    console.log("Not a golden string");
+}
+
+// Q5 - Write a program to find the largest of 3 numbers?
+
+let num1 = 15;
+let num2 = 45;
+let num3 = 120;
+
+if (num1 > num2 && num1 > num3) {
+    console.log("num1 is the largest number");
+} else if (num2 > num1 && num2 > num3) {
+    console.log("num2 is the largest number");
+} else{
+    console.log("num3 is the largest number");
+}
+
+
+// Q6
+
+let a = 32;
+let b = 47852;
+
+if ((a%10) == (b%10)) {
+    console.log("numbers have the same last digit which is",a%10);
+} else{
+    console.log("numbers don't have the same last digit");
+}
+
