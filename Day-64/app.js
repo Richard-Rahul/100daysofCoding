@@ -81,3 +81,21 @@ if ((a%10) == (b%10)) {
     console.log("numbers don't have the same last digit");
 }
 
+let msg = "  Richard  ";
+console.log(msg.trim());
+
+let text = "Richard Rahul";
+
+console.log(text.toLocaleUpperCase()); // Upper case method
+console.log(text.toLowerCase()); // Lower case method
+console.log(text.length);
+console.log(text.charAt(2));
+console.log(text.charCodeAt(4));
+console.log(text[5]);
+console.log(text.charAt(2));
+console.log(text.concat(" "));
+console.log(text.trim());
+console.log(text.charAt(2));
+
+
+
