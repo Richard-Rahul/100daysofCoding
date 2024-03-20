@@ -97,6 +97,7 @@ console.log(text.concat(" "));
 console.log(text.trim());
 console.log(text.charAt(2));
 console.log(text[5]);
+console.log(text.length);
 
 
 
