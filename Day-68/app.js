@@ -23,3 +23,19 @@ console.log(name.slice(4,9));
 console.log(name.indexOf("na"));
 console.log(name.replace("Apna", "Our"));
 
+//Array
+
+let students = ["Aman", "Rahul", "Geeta"];
+console.log(students);
+console.log(students[0]);
+console.log(students[-1]);
+console.log(students[2]);
+
+let num = [2, 4, 6, 8, 10, 12, 14, 16, 18, 20]
+console.log(num);
+console.log(num[0]);
+console.log(num[2]);
+console.log(num[4]);
+console.log(num[6]);
+console.log(num[8]);
+console.log(num[10]);
