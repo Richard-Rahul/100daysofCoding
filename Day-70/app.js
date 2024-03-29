@@ -52,3 +52,9 @@ months.unshift("july");
 console.log(months);
 
 
+let fruit = ["Apple", "Orange", "Apple", "Mango"];
+let position = fruit.indexOf("Apple");
+fruit.includes("Mango");
+
+console.log(position);
+console.log(fruit);
