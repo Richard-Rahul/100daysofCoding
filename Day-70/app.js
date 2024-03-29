@@ -40,3 +40,15 @@ userName.shift()
 userName.shift(userName[0]);
 userName.shift("Richard");
 console.log(userName);
+
+// Q1 
+
+let months = ["january", "july", "march", "august"];
+months.shift();
+months.shift();
+months.unshift("june");
+months.unshift("july");
+
+console.log(months);
+
+
