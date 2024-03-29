@@ -11,3 +11,7 @@ let empArray = [];
 console.log(empArray);
 
 
+let fruits = ["mango", "apple", "litchi"];
+fruits[0] = "banana";
+fruits[2] = "pineapple";
+console.log(fruits);
