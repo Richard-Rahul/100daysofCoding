@@ -14,4 +14,29 @@ console.log(empArray);
 let fruits = ["mango", "apple", "litchi"];
 fruits[0] = "banana";
 fruits[2] = "pineapple";
+fruits[5] = "Richard";
 console.log(fruits);
+
+// Push Array Method
+let userName = ["Rahul", "Geeta", "Suggu", "Buggu"];
+userName.push("Sugiyaaa");
+console.log(userName);
+
+// Unshift Array Method
+
+userName.unshift("Richard");
+console.log(userName);
+
+// Pop Array Method
+
+userName.pop();
+userName.pop(userName[4]);
+userName.pop("Sugiyaaa");
+console.log(userName);
+
+// Shift Array Method
+
+userName.shift()
+userName.shift(userName[0]);
+userName.shift("Richard");
+console.log(userName);
