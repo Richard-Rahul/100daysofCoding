@@ -1,3 +1,3 @@
 #100daysofCoding
 
-100 Days of Coding Challenge | Web Development
+100 Days of Coding Challenge | Web Development.
