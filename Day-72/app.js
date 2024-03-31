@@ -28,3 +28,6 @@ let months = ["january", "july", "march", "august"];
 let finalMonths = months.splice(0, 2, "july", "june");
 console.log(finalMonths);
 console.log(months);
+
+let codingLang = ["c", "c++", "java", "python", "html", "javascript", "c#", "sql"];
+console.log(codingLang.reverse().indexOf("javascript"));
