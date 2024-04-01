@@ -17,11 +17,7 @@ while (guess !== randomNumber) {
     else {
         alert("Too high! Try again.");
     }
-    
-    // Prompt the user for another guess
     guess = parseInt(prompt("Guess a number between 1 and 100:"));
-    
-    // Increment the attempts counter
     attempts++;
 
     // If the user attempts more than 10 times, break out of the loop
