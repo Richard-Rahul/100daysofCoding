@@ -1,13 +1,7 @@
 
 const randomNumber = Math.floor(Math.random() * 100) + 1;
-
-
 let guess = parseInt(prompt("Guess a number between 1 and 100:"));
-
-
 let attempts = 1;
-
-
 while (guess !== randomNumber) {
   
     if (guess < randomNumber) {
