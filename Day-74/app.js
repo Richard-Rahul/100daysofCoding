@@ -60,7 +60,46 @@ console.log(arr8);
 // ex 7
 
 let num = [[1, 2], [3, 4], [5, 6]];
-console.log(num);
 
+console.log(num);
+console.log(num.length);
+console.log(num[0]);
+console.log(num[1]);
+console.log(num[2]);
+console.log(num[0][0]);
+console.log(num.typeof);
+
+// Q 1
+
+let game = [["x", null, "o"], [null, "x", null], ["o", null, "x"]];
+
+console.log(game);
+console.log(game[0]);
+console.log(game[0][1]);
+
+game[0][1] = "o";
+console.log(game);
+
+// Qs1.Write a JavaScript program to get the first n elements of an array.[n can be any positive number].
+// For example:for array[7,9,0,-2] and n=3
+// Print,[7,9,0]
+
+let arr9 = [7, 9, 0, -2];
+let n = 3;
+
+let ans = arr9.slice(0, n);
+let ans1 = arr9.slice(arr9.length-n);
+console.log(ans);
+console.log(ans1);
+
+// Write a JavaScript program to check whether a string is blank or not.
+
+let str = "";
+
+if (str.length == 0){
+    console.log("string is empty");
+} else{
+    console.log("string is not empty");
+}
 
 
