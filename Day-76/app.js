@@ -51,3 +51,4 @@ const user = {
   const randomInteger = Math.floor(Math.random() * 100) + 1;
   console.log("Random Integer:", randomInteger);
   
+  console.log("2"+"2"-"2");
