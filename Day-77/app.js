@@ -1,42 +1,30 @@
-for (let i=1; i<=33; i=i+2) {
-    console.log(i);
-}
+const maxStr = prompt("Please enter the maximum number for the guessing game:");
+const max = parseInt(maxStr);
 
+// Validate user input
+if (isNaN(max) || max <= 0) {
+    console.log("Invalid input. Please enter a valid positive number.");
+} else {
+    const targetNumber = Math.floor(Math.random() * max) + 1;
+    let attempts = 0;
+    let guess;
 
-// backward
-for (let i=15; i>=1; i=i-2) {
-    console.log(i);
-} 
+    while (guess !== targetNumber) {
+        guess = parseInt(prompt("Guess the number between 1 and " + max + ":"));
 
-// table - 2
-for (let i=2; i<=20; i=i+2) {
-    console.log(i);
-}
+        // Check if guess is valid
+        if (isNaN(guess) || guess < 1 || guess > max) {
+            console.log("Invalid guess. Please enter a number between 1 and " + max + ".");
+        } else {
+            attempts++;
 
-// table - 3
-
-for (let i=3; i<=30; i=i+3) {
-    console.log(i);
-}
-
-// table - 17
-
-for (let i=17; i<=170; i=i+17) {
-    console.log(i);
-}
-
-// table - 19
-
-for (let i=19; i<=190; i=i+19) {
-    console.log(i);
-}
-
-// infinite loop
-
-// for (let i=1; i>=0; i++) {
-//     console.log(i);
-// }
-
-for (let i=5; i<=5555; i=i+10) {
-    console.log(i);
+            if (guess < targetNumber) {
+                console.log("Too low. Try again.");
+            } else if (guess > targetNumber) {
+                console.log("Too high. Try again.");
+            } else {
+                console.log("Congratulations! You guessed the number " + targetNumber + " correctly in " + attempts + " attempts!");
+            }
+        }
+    }
 }
