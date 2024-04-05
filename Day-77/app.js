@@ -1,3 +1,9 @@
+/* Guessing Game
+
+- User enters a max number & then tries to guess a random generated number between 1 to max.
+
+*/
+
 const maxStr = prompt("Please enter the maximum number for the guessing game:");
 const max = parseInt(maxStr);
 
