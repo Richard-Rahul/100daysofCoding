@@ -18,3 +18,27 @@ for (let i=0; i<student.length; i++) {
         console.log(student[i][j]);
     }
 }
+
+// example 3 for of loop
+
+for (char of "apnacollege") {
+    console.log(char);
+}
+
+let names = ["Rahul", "Richard", "Geeta", "Suggu", "Sugiyaa"];
+
+for (name of names) {
+    console.log(name);
+}
+
+// nesting of for of loop
+let heroes = [["ironman", "spiderman", "thor"], ["superman", "batman", "flash"]];
+
+for (list of heroes) {
+    console.log(list);
+    for (hero of list) {
+        console.log(hero);
+    }
+}
+
+//
