@@ -6,6 +6,7 @@ while (true) {
     if (req === "quit") {
         console.log("Quitting app");
         break;
+
     } else if (req === "list") {
         console.log("-----------------");
         if (todo.length === 0) {
@@ -15,11 +16,14 @@ while (true) {
                 console.log(`${index + 1}: ${task}`);
             });
         }
+
         console.log("-----------------");
+
     } else if (req === "add") {
         let task = prompt("Please enter the task you want to add:");
         todo.push(task);
         console.log("Task added.");
+
     } else if (req === "delete") {
         if (todo.length === 0) {
             console.log("No tasks to delete.");
@@ -33,7 +37,9 @@ while (true) {
                 console.log(`Deleted task: ${deletedTask}`);
             }
         }
+        
     } else {
         console.log("Invalid request. Please enter add, list, delete, or quit.");
     }
 }
+ 
