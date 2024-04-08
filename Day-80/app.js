@@ -73,3 +73,13 @@ for (let i = 0; i<=arr1.length; i++) {
 }
 
 console.log(largest);
+
+// -------------------------- Object Literals----------------------------
+
+let person = {
+    name: "Rahul Verma",
+    age: 24, 
+    email: "rahul@gmail.com",
+};
+
+console.log(typeof(person));
