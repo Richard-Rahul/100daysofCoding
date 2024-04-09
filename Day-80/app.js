@@ -87,8 +87,23 @@ console.log(typeof(person));
 let student = {
     name: "Geeta Verma",
     age: 23,
+    marks: 95,
     email: "geeta@gmail.com"
 };
 
 console.log(typeof(student));
+console.log(student);
 
+const x = [1, 2, 3];
+x[-1] = -1;
+console.log(x.length);
+
+
+function greet(name) {
+    if(name === undefined) {
+        name = "friend";
+    }
+    console.log("Hello" + " " + name);
+}
+
+greet();
