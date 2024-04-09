@@ -83,3 +83,12 @@ let person = {
 };
 
 console.log(typeof(person));
+
+let student = {
+    name: "Geeta Verma",
+    age: 23,
+    email: "geeta@gmail.com"
+};
+
+console.log(typeof(student));
+
