@@ -107,3 +107,88 @@ function greet(name) {
 }
 
 greet();
+
+//---------------
+
+const items = {
+    price: 70,
+    discount: 15,
+    color: ["Red", "Pink"],
+}
+
+console.log(items);
+
+// -----Create a X post
+
+const post = {
+    username: "@richar_rahul",
+    content: "I Love You Suggiyaa #Love",
+    like: 450,
+    repost: 15,
+    tag: ["@suggu_verma", "@love"],
+
+};
+
+console.log(post); // print whole object value
+console.log(post["content"]); // print only key value, only content ki value print hogi.
+console.log(post["username"]);
+console.log(post["like"]);
+console.log(post["tag"]);
+
+console.log(post.content); 
+
+// --------------- Add / Update values -----------------------
+
+const std = {
+    name: "Rahul Verma",
+    age: 24,
+    marks: 750,
+    city: "Gurgaon",
+};
+
+console.log(std);
+
+// after chanding city value
+
+std.city = "New Delhi";
+std.marks = [80, 72, 98, 60, 85];
+
+console.log(std);
+
+// adding new value
+
+std.gender = "Male";
+std.phone = 7011959640;
+std.email = "rahul@gmail.com";
+
+console.log(std);
+
+// delete value
+
+delete std.marks;
+console.log(std);
+
+// nesting of object
+
+const classInfo = {
+    Rahul : {
+        grade: "A+",
+        city: "Gurgaon",
+        Gender: "Male"
+    },
+
+    Geeta : {
+        grade: "A",
+        city: "Delhi",
+        Gender: "Female",
+    },
+
+    Richard : {
+        grade: "C+",
+        city: "Mumbai",
+        Gender: "Male",
+    }
+};
+
+console.log(classInfo);
+console.log(typeof(classInfo));
