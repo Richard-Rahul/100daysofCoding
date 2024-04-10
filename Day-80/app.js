@@ -192,3 +192,5 @@ const classInfo = {
 
 console.log(classInfo);
 console.log(typeof(classInfo));
+
+// Dom - Document object model 
