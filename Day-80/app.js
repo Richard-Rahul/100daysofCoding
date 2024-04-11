@@ -193,4 +193,31 @@ const classInfo = {
 console.log(classInfo);
 console.log(typeof(classInfo));
 
-// Dom - Document object model 
+
+let outPut = 2 ** 3;
+console.log(outPut);
+
+let stdInfo = [
+    {
+        name: "Rahul",
+        age: 24,
+        marks: 780,
+    }, 
+
+    {
+        name: "Geeta",
+        age: 23,
+        marks: 800,
+    }, 
+    {
+        name: "Aditya",
+        age: 20,
+        marks: 750,
+    }
+];
+
+console.log(stdInfo);
+
+stdInfo[1].name = "Suggu";
+console.log(stdInfo);
+
