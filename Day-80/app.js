@@ -221,3 +221,8 @@ console.log(stdInfo);
 stdInfo[1].name = "Suggu";
 console.log(stdInfo);
 
+
+console.log(Math.floor(250.56));
+console.log(Math.pow(2, 10));
+console.log(Math.ceil(7.9));
+console.log(Math.random());
