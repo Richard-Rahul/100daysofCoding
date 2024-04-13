@@ -49,5 +49,3 @@ document.querySelector('#main-menu ul').appendChild(newMenuItem);
 const removeMenuItem = document.getElementById('about-link').parentNode;
 removeMenuItem.parentNode.removeChild(removeMenuItem);
 
-
-let div = document.getElementById('about-link').value
