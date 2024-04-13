@@ -227,3 +227,43 @@ console.log(Math.pow(2, 10));
 console.log(Math.ceil(7.9));
 console.log(Math.random());
 console.log(Math.random());
+
+let number = Math.random();
+
+let total = num*10;
+
+
+console.log(total);
+
+// generate random number between 1 to 20
+console.log(Math.floor(Math.random() * 20) + 1);
+
+// Generate a random number between 1 and 100
+
+let num1 = Math.floor(Math.random() * 100) + 1;
+console.log(num1);
+
+let num2 = Math.floor(Math.random() * 6) + 1;
+console.log(num2);
+
+let car = {
+    name: "Swift",
+    model: "Top-Model",
+    color: "White",
+    price: 1200000,
+};
+
+console.log(car);
+
+let person1 = {
+    name: "Richard Rahul",
+    age: 24,
+    city: "Gurgaon",
+};
+
+console.log(person1);
+
+person1.city = "New York";
+person1.country = "United States";
+
+console.log(person1);
