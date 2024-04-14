@@ -3,27 +3,49 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Event Handling Example</title>
-<style>
-    body {
-        font-family: Arial, sans-serif;
-    }
-    #form-container {
-        text-align: center;
-        margin-top: 50px;
-    }
-</style>
+<title>JavaScript Example</title>
 </head>
 <body>
 
-<div id="form-container">
-    <form id="user-form">
-        <label for="name">Enter your name:</label>
-        <input type="text" id="name" name="name" required>
-        <button type="submit">Submit</button>
-    </form>
-</div>
+<h1 id="heading">Hello, World!</h1>
 
-<script src="app.js"></script>
+<script>
+  // Variables and Data Types
+  let name = "John";
+  let age = 30;
+  let isStudent = false;
+  
+  // Control Flow Statements (if-else)
+  if (age >= 18) {
+    console.log(name + " is an adult.");
+  } else {
+    console.log(name + " is a minor.");
+  }
+  
+  // Function
+  function greet() {
+    return "Hello, " + name + "!";
+  }
+  
+  // Arrays
+  let fruits = ["Apple", "Banana", "Orange"];
+  
+  // Objects
+  let person = {
+    name: "Alice",
+    age: 25,
+    isStudent: true
+  };
+  
+  // DOM Manipulation
+  let heading = document.getElementById("heading");
+  heading.textContent = greet();
+  
+  // DOM Events
+  heading.addEventListener("click", function() {
+    alert("Heading Clicked!");
+  });
+</script>
+
 </body>
 </html>
