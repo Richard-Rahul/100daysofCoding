@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admit Card Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Admit Card Generator</h1>
+        <form id="admitCardForm">
+          <label for="name">Name:</label>
+          <input type="text" id="name" required>
+    
+          <label for="exam">Exam Name:</label>
+          <input type="text" id="exam" required>
+    
+          <label for="date">Exam Date:</label>
+          <input type="date" id="date" required>
+    
+          <label for="venue">Exam Venue:</label>
+          <textarea id="venue" required></textarea>
+    
+          <button type="submit">Generate Admit Card</button>
+        </form>
+    
+        <div id="admitCard" class="hidden">
+          <h2 id="admitCardName"></h2>
+          <p id="admitCardExam"></p>
+          <p id="admitCardDate"></p>
+          <p id="admitCardVenue"></p>
+        </div>
+      </div>
+    
+      <script src="script.js"></script>
+</body>
+</html>
