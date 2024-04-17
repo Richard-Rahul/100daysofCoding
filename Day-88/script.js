@@ -16,7 +16,6 @@ const quotes = [
   const quoteText = document.getElementById("quoteText");
   const quoteAuthor = document.getElementById("quoteAuthor");
   
-  
   function generateQuote() {
     const randomIndex = Math.floor(Math.random() * quotes.length);
     const randomQuote = quotes[randomIndex];
@@ -32,6 +31,5 @@ const quotes = [
     window.open(tweetUrl, "_blank");
   });
   
-  // Initial quote generation
   generateQuote();
   
