@@ -1,0 +1,12 @@
+.container {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  #colorBox {
+    width: 200px;
+    height: 200px;
+    background-color: lightblue;
+    margin-top: 20px;
+  }
+  
