@@ -1,8 +1,6 @@
 // Callback function
 function changeColor(callback) {
-    // Simulating async operation (e.g., fetching data from server)
     setTimeout(() => {
-      // Callback function executed
       callback();
     }, 1000);
   }
