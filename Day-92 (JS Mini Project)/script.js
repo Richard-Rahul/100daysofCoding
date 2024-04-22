@@ -122,3 +122,4 @@ function displayLoremIpsum(text) {
 
 // Initialize the app
 createOptionsUI();
+
