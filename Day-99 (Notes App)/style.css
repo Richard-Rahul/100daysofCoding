@@ -24,6 +24,8 @@ body {
   border-radius: 3px;
   padding: 0.5rem 1rem;
   cursor: pointer;
+  font-size: 1rem;
+  font-weight: 600;
 }
 
 .add:active {
